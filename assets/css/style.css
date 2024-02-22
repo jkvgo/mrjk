@@ -808,6 +808,18 @@ section {
   margin: auto;
 }
 
+#wedding .w-text.w-text-reco {
+  margin-top: 20px;
+  width: 50%;
+}
+
+@media (max-width: 1024px) {
+  #wedding .w-text.w-text-reco {
+    margin-top: 20px;
+    width: 75%;
+  }
+}
+
 #wedding .w-text .date-segment{
   width: 40%;
   text-align: right;
@@ -1085,7 +1097,7 @@ Accommodation
 
 @media (max-width: 768px) {
   #accommodation .acc-container .awesome-rates {
-    width: 350px;
+    width: 100%;
   }
 }
 
