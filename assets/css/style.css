@@ -424,6 +424,31 @@ h6 {
 #home .carousel-inner .carousel-item {
   transition-property: opacity;
   background-position: center top;
+  background-image: url(../img/couple2.jpg);
+  background-position: 0% 50%;
+  background-color: #808080;
+  background-blend-mode: multiply;
+}
+
+@media (max-width: 1024px) {
+  #home {
+    height: 80vh;
+    /**
+      height of main section
+    **/
+  }
+
+  #home .carousel-inner .carousel-item {
+    /** for 3 **/
+    /* background-image: url(../img/couple3.jpg);
+    background-position: 40% 50%;
+    background-size: 180%; */
+
+    /** for 4 **/
+    background-image: url(../img/couple5.jpg);
+    background-position: 40% 50%;
+    /* background-size: 120%; */
+  }
 }
 
 #home .carousel-inner .carousel-item,
@@ -501,9 +526,7 @@ h6 {
 }
 
 @media (max-width: 992px) {
-  #home {
-    height: 100vh;
-  }
+  
 
   #home .carousel-container {
     top: 66px;
