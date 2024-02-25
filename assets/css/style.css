@@ -424,8 +424,8 @@ h6 {
 #home .carousel-inner .carousel-item {
   transition-property: opacity;
   background-position: center top;
-  background-image: url(../img/couple2.jpg);
-  background-position: 0% 50%;
+  background-image: url(../img/couple7.jpg);
+  background-position: 0% 70%;
   background-color: #808080;
   background-blend-mode: multiply;
 }
@@ -1125,7 +1125,10 @@ Accommodation
 }
 
 #accommodation .acc-container2 {
-  margin-left: 43.5%;
+  /* margin-left: 43.5%; */
+  width: 50%;
+  margin: auto;
+  font-size: 12px;
 }
 
 @media (max-width: 768px) {
