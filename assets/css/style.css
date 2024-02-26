@@ -1103,9 +1103,55 @@ section {
   padding: 0;
 }
 
+/**
+Q&A
+*/
+
+#qa .qa-container {
+  width: 65%;
+  margin: auto;
+  font-size: 12px;
+  text-align: center;
+}
+
+#qa .qa-container .qa-container2 {
+  margin-bottom: 15px;
+}
+
+#qa .qa-container .qa-container2 i {
+  font-weight: bold;
+}
+
+/**
+Explore
+*/
+#explore .explore-container {
+  width: 65%;
+  margin: auto;
+  font-size: 12px;
+  text-align: center;
+}
+
+/**
+Gifts
+*/
+#gifts {
+  background: #eae5e1;
+}
+
+#gifts .gift-container {
+  width: 65%;
+  margin: auto;
+  font-size: 12px;
+  text-align: center;
+}
+
 /*
 Accommodation
 */
+#accommodation {
+  background: #eae5e1;
+}
 
 #accommodation .acc-container {
   width: 65%;
@@ -1129,11 +1175,14 @@ Accommodation
   width: 50%;
   margin: auto;
   font-size: 12px;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
   #accommodation .acc-container2 {
-    margin-left: 35vw;
+    
+    width: 70%;
+    /* margin-left: 35vw; */
   }
 }
 
