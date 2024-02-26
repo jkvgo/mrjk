@@ -18,6 +18,12 @@ a {
   color: #eae5e1;
 }
 
+a[href^="tel"] {
+  color: inherit; /* Inherit text color of parent element. */
+  text-decoration: none; /* Remove underline. */
+  /* Additional css `propery: value;` pairs here */
+}
+
 a:hover {
   /* color: #80c792; */
   color: #cd5c27;
@@ -789,6 +795,7 @@ section {
 @media (max-width: 1024px) {
   .cta {
     background-attachment: scroll;
+    font-size: 14px;
   }
 
   .cta .ent-main-container {
@@ -812,9 +819,6 @@ section {
 
 #wedding {
   background-color: #F5F3F2;
-}
-
-#wedding .wedding-container{
   font-size: 13px;
 }
 
@@ -837,6 +841,10 @@ section {
 }
 
 @media (max-width: 1024px) {
+  #wedding {
+    font-size: 14px;
+  }
+
   #wedding .w-text.w-text-reco {
     margin-top: 20px;
     width: 75%;
@@ -1009,6 +1017,10 @@ section {
 }
 
 @media (max-width: 768px) {
+  .portfolio .wtw-container1 {
+    font-size: 14px;
+  }
+
   .portfolio .portfolio-wrap:hover::before{
     opacity: 0;
   }
@@ -1127,6 +1139,12 @@ Q&A
   font-weight: bold;
 }
 
+@media (max-width: 768px) {
+  #qa .qa-container {
+    font-size: 14px;
+  }
+}
+
 /**
 Explore
 */
@@ -1137,18 +1155,30 @@ Explore
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  #explore .explore-container {
+    font-size: 14px;
+  }
+}
+
 /**
 Gifts
 */
 #gifts {
   background: #eae5e1;
+  font-size: 12px;
 }
 
 #gifts .gift-container {
   width: 65%;
   margin: auto;
-  font-size: 12px;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  #gifts {
+    font-size: 14px;
+  }
 }
 
 /*
@@ -1156,12 +1186,12 @@ Accommodation
 */
 #accommodation {
   background: #eae5e1;
+  font-size: 12px;
 }
 
 #accommodation .acc-container {
   width: 65%;
   margin: auto;
-  font-size: 12px;
 }
 
 #accommodation .acc-container .awesome-rates {
@@ -1170,6 +1200,10 @@ Accommodation
 }
 
 @media (max-width: 768px) {
+  #accommodation {
+    font-size: 14px;
+  }
+
   #accommodation .acc-container .awesome-rates {
     width: 100%;
   }
@@ -1179,7 +1213,7 @@ Accommodation
   /* margin-left: 43.5%; */
   width: 50%;
   margin: auto;
-  font-size: 12px;
+  
   text-align: center;
 }
 
