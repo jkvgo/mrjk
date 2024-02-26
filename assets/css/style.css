@@ -841,6 +841,11 @@ section {
     margin-top: 20px;
     width: 75%;
   }
+
+  #wedding .w-text-2 {
+    width: 70%;
+    margin: auto;
+  }
 }
 
 #wedding .w-text .date-segment{
