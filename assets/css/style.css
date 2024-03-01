@@ -791,6 +791,9 @@ section {
   margin-bottom: 20px;
 }
 
+.cta .ent-main-container .ent-container:first-child {
+  flex-basis: 100%;
+}
 
 @media (max-width: 1024px) {
   .cta {
@@ -838,6 +841,11 @@ section {
 #wedding .w-text.w-text-reco {
   margin-top: 20px;
   width: 50%;
+}
+
+#wedding .w-text-2 .special-link{
+  text-decoration: underline;
+  color: #cd5c27;
 }
 
 @media (max-width: 1024px) {
