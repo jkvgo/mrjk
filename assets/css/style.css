@@ -1183,9 +1183,17 @@ Gifts
   text-align: center;
 }
 
+#gifts .gift-container .bank-qr-image {
+  width: 50%;
+}
+
 @media (max-width: 768px) {
   #gifts {
     font-size: 14px;
+  }
+
+  #gifts .gift-container .bank-qr-image {
+    width: 100%;
   }
 }
 
@@ -1200,6 +1208,7 @@ Accommodation
 #accommodation .acc-container {
   width: 65%;
   margin: auto;
+  text-align: center;
 }
 
 #accommodation .acc-container .awesome-rates {
