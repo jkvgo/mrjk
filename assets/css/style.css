@@ -1040,6 +1040,10 @@ section {
     right: unset;
     background: rgba(34, 34, 34, 0.6);
   }
+
+  .portfolio .wtw-container1 .wtw-group .colors-container img{
+    width: 100%;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1145,6 +1149,10 @@ Q&A
 
 #qa .qa-container .qa-container2 i {
   font-weight: bold;
+}
+
+#qa .qa-container .qa-container2 i.non-bold {
+  font-weight: revert;
 }
 
 @media (max-width: 768px) {
