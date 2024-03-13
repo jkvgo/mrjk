@@ -587,12 +587,28 @@ section {
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
+  /* margin-bottom: 20px;
+  padding-bottom: 20px; */
   position: relative;
 }
 
-.section-title h2::before {
+.section-title .section-title-kala {
+  width: 15%;
+}
+.section-title .section-title-coco {
+  width: 13%;
+}
+
+@media (max-width: 768px) {
+  .section-title .section-title-kala {
+    width: 45%;
+  }
+  .section-title .section-title-coco {
+    width: 40%;
+  }
+}
+
+/* .section-title h2::before {
   content: "";
   position: absolute;
   display: block;
@@ -612,7 +628,7 @@ section {
   background: #eae5e1;
   bottom: 0;
   left: calc(50% - 20px);
-}
+} */
 
 .section-title p {
   margin-bottom: 0;
