@@ -457,7 +457,7 @@ h6 {
     /** for 4 **/
     background-image: url(../img/couple9.jpg);
     background-position: 40% 50%;
-    background-size: 120%;
+    /* background-size: 120%; */
   }
 
   #home .mr-jk-main-image {
