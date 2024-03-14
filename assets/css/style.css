@@ -1215,8 +1215,21 @@ Gifts
   text-align: center;
 }
 
-#gifts .gift-container .bank-qr-image {
-  width: 20%;
+#gifts .gift-container .qrs-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+#gifts .gift-container .qrs-container .qr-container {
+  flex-basis: 25%;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#gifts .gift-container .qrs-container .qr-container .bank-qr-image {
+  width: 80%;
+  margin-top: 5px;
 }
 
 @media (max-width: 768px) {
@@ -1226,6 +1239,12 @@ Gifts
 
   #gifts .gift-container .bank-qr-image {
     width: 50%;
+  }
+
+  #gifts .gift-container .qrs-container .qr-container {
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 45px;
   }
 }
 
